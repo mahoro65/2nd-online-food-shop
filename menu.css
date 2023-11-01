@@ -1,0 +1,26 @@
+.product-name{
+    padding: 10px;
+    font-size: 40px;
+    color:#443d2e;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    text-align: left;
+}
+ 
+.product-price{
+    padding: 5px; 
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+    color:#443d2e;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+}
+
+.menu{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    border: 20px;
+}

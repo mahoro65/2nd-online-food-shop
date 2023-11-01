@@ -1,0 +1,84 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" 
+     content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="./home.css"> 
+    <link  href="https://fonts.googleapis.com/css2? family=Ubuntu+Mono&display=swap" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,300;0,500;0,700;1,200&display=swap" rel="stylesheet">   
+</head> 
+  
+<body> 
+    <header> 
+        <h1 id="heading1">Online FoodShop</h1> 
+        
+    </header> 
+    <hr> 
+    <nav id="navbar"> 
+        <img src="./menu/logo.jpg">
+        <ul id="navcontent">
+ 
+            <li><a href="Home.html">Home</a></li> 
+            <li><a href="about.html">About</a></li> 
+            <li><a href="menu.html">Menu</a></li>    
+            <li><a href="contact.htm">ContactUs</a></li>
+        </ul> 
+    </nav> 
+    <div id="container1"> 
+        <div id="row1"> 
+            Welcome to Online FoodShop 
+        </div> 
+        
+        <div id="container3"> 
+            <div id="row2"> 
+                <a href="./prices.html" class="btn">Prices</button> </a>
+            </div> 
+            <div id="row3"> 
+                
+                
+                
+                <a href="./specials.html"><button class="btn">Specials</button> </a> 
+                
+            </div> 
+        </div> 
+    </div> 
+    <hr> 
+    <h1 id="top3">Featured Products</h1> 
+    <div id="container4"> 
+        <div id="row4"> 
+        </div> 
+        <div class="row5" style="max-width:400px">
+            <img class="mySlides" src="./menu/coctail1.jpg" style="width:100%">
+            <img class="mySlides" src="./menu/coctail2.jpg" style="width:100%">
+            <img class="mySlides" src="./menu/coctail3.jpg" style="width:100%">
+          </div>
+          <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 2000); 
+            }
+            </script>
+            
+          
+        </div> 
+        <div id="row6"> 
+        </div> 
+    </div> 
+    <footer>Copyright © 2021-2025 OnlineFoodShop. 
+           All Rights are reserved</footer> 
+</body> 
+</html> 

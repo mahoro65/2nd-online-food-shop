@@ -1,0 +1,114 @@
+/*CSS Reset*/
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-image: url(./menu/wood.jpg);
+}
+/*Header Styling*/
+
+#heading1{
+    color: #7b653d;
+    text-align:center;
+    font-size: 50px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+}
+#heading2{
+    text-align:center;
+    color: rgb(83, 83, 180);
+    font-size:21px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+/* Navigation bar styling*/
+
+/*Navbar image styling*/
+#navbar img{
+    display:block;
+    width: 50px;
+    height:50px;
+    margin:auto;
+    margin-bottom: 3px;
+}
+
+/*Navbar Functionality*/
+#navbar{
+    display:flex;
+    flex-direction: column;
+     height: 14vh;
+    width: 100vw;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-top:10px;
+   border: 2px solid black;
+   border-radius:15px;
+   background-color: #fdb515;
+}
+
+
+/*Navbar content functionality*/
+#navcontent{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Navbar content styling*/
+ul li{
+    list-style: none;
+    margin: 15px;
+    border-radius: 20px;
+}
+ul li a{
+    padding: 1px;
+    color:#443d2e;
+    text-decoration: none;
+    border-radius:10px;
+    font-size: 17px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+}
+ul li a:hover{
+    background-color: red;
+    border-radius: 10px;
+}
+.specials-name{
+    padding: 15px; 
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #7a643d;
+    text-align: left;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+}
+
+.specials-price{padding: 5px; 
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#443d2e;
+    text-align: left;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+}
+     
+
+.confirm{
+    padding: 10px; 
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #443d2e;
+    text-align: left;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+}
+
+p{ padding: 5px; 
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #443d2e;
+    text-align: left;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+}
+
+
